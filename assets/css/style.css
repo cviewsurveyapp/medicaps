@@ -1480,18 +1480,25 @@ blockquote.q-card::before {
   z-index: 1;
   height: 11%;
   width: 5%;
+  
 }
 
 .hide {
   display: none;
+ 
+  transition-duration: 1s;
+    transition-timing-function: ease;
+    transition-delay: 1s;
+    transition-property: all;
 }
 
 .img-top:hover+.hide {
   display: block;
-
+  
   width: 7%;
   position: absolute;
   z-index: 2;
+  
 }
 
 .m-responsive2 {
