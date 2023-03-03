@@ -575,12 +575,12 @@ body {
 
 .person-image {
   width: 120%;
-  height: 538px;
+  height: 541px;
 }
 
 .person-image3 {
   width: 120%;
-  height: 538px;
+  height: 543px;
 }
 
 
@@ -595,7 +595,7 @@ body {
   margin: 0px 20px;
 } */
 
-.slick-slide img {
+.slick-slide-img {
   width: 70%;
   border-right: 3px solid #FCB514;
   padding-right: 20px;
@@ -1534,7 +1534,7 @@ blockquote.q-card::before {
 
 .testimonial-candi-details {
   border-left: 3px solid #fcb514;
-  margin-left: 85px;
+  margin-left: 70px;
   padding-left: 25px;
   margin-top: 30px;
 }
@@ -2069,7 +2069,6 @@ navbar-mobile .dropdown ul {
   height: 100%;
   object-fit: cover;
   object-position: 0%;
-  
 
 
 }
@@ -3858,3 +3857,11 @@ section {
 
 
 }
+
+
+/* .carousel-inner > .carousel-item {
+  -webkit-transition: 0.6s ease-in-out left;
+  -moz-transition: 0.6s ease-in-out left;
+  -o-transition: 0.6s ease-in-out left;
+  transition: 0.6s ease-in-out left;
+} */
